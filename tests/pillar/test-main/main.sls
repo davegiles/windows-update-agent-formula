@@ -24,8 +24,8 @@ windows-update-agent:
         ElevateNonAdmins: ''
         TargetGroup: ''
         TargetGroupEnabled: ''
-        WUServer: 'https://wsus.example.com'
-        WUStatusServer: 'https://wsus.example.com'
+        WUServer: 'https://192.168.1.102'
+        WUStatusServer: 'https://192.168.1.102'
       'HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer':
         DisableWindowsUpdateAccess: ''
       'HKEY_LOCAL_MACHINE\SYSTEM\Internet Communication Management\Internet Communication':
